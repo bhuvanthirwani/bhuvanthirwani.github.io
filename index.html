@@ -8,7 +8,14 @@
   <title>Bhuvan Thirwani</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhuvan Thirwani</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.73/dist/themes/light.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -43,7 +50,7 @@
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
   <!-- ======= Header ======= -->
-  <header id="header">
+  <!-- <header id="header">
     <div class="d-flex flex-column">
 
       <div class="profile">
@@ -60,19 +67,39 @@
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#fh5co-features" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+          <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-book-content"></i>
               <span>Skills</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+          <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-book-content"></i>
               <span>Projects</span></a></li>
-          <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
-      </nav><!-- .nav-menu -->
+      </nav>
     </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
+  </header>-->
+  <header id="header">
+    <div class="profile">
+      <img src="assets/img/profile-img1.png" alt="" class="img-fluid rounded-circle">
+      <h1 class="text-light"><a href="index.html">Bhuvan Thirwani</a></h1>
+      <div class="social-links mt-3 text-center">
+        <a href="https://www.linkedin.com/in/dev-hax-codes/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/bhuvanthirwani/" class="github"><i class="bx bxl-github"></i></a>
+      </div>
+    </div>
+  
+    <nav id="navbar" class="nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> Home</a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> About</a></li>
+        <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-book-content"></i> Skills</a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> Resume</a></li>
+        <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-book-content"></i> Projects</a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Bhuvan Thirwani</h1>
@@ -80,305 +107,552 @@
     </div>
   </section><!-- End Hero -->
 
+
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>About Me</h2>
-          <p>
-            Hi, I’m Bhuvan Thirwani, a results-driven Software Engineer with 2+ years of experience in building
-            cutting-edge technology solutions.
-            Currently pursuing an MS in Computer Science at the University at Buffalo, I specialize in designing
-            scalable systems, deploying AI-driven models,
-            and leveraging cloud technologies to deliver impactful outcomes.
+    <section id="about" class="bg-gradient-to-b from-blue-50 to-white py-16">
+      <div class="container mx-auto px-4 max-w-6xl">
+        <!-- Title Section -->
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold text-blue-900 mb-4">About Me</h2>
+          <p class="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto">
+            Hi, I'm Bhuvan Thirwani, a results-driven Software Engineer with 2+ years of experience in building
+            cutting-edge technology solutions. Currently pursuing an MS in Computer Science at the University at Buffalo,
+            I specialize in designing scalable systems, deploying AI-driven models, and leveraging cloud technologies
+            to deliver impactful outcomes.
           </p>
         </div>
-
-        <div class="row">
-          <!-- <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.png" class="img-fluid" alt="">
-          </div> -->
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>ML & DL Enthusiast &amp; Full Stack Web Developer &amp; DevOps Engineer</h3>
-            <p class="fst-italic">
-              Like to work in the field of Integration of Machine Learning & Deep Learning into the Web Applications.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>22 August 1999</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a
-                        href="https://bhuvanthirwani.github.io/">bhuvanthirwani.github.io</a></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+1 716 228-4256</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Buffalo, New York, United States
-                      of America</span></li>
-                </ul>
+    
+        <!-- Content Section -->
+        <div class="flex flex-col lg:flex-row gap-8">
+          <!-- Personal Info Card -->
+          <div class="w-full lg:w-1/2 bg-white p-8 rounded-xl shadow-md border border-blue-100">
+            <h3 class="text-2xl font-semibold text-blue-800 mb-6">Personal Information</h3>
+            
+            <div class="space-y-4">
+              <div class="flex items-center">
+                <div class="w-8">
+                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V9h14v10zM5 7V5h14v2H5z"/>
+                  </svg>
+                </div>
+                <div>
+                  <span class="font-medium text-gray-700">Birthday:</span>
+                  <span class="text-gray-600 ml-2">22 August 1999</span>
+                </div>
               </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master of Science in Computer
-                      Science</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>bhuvanthirwani@gmail.com</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
-                </ul>
+    
+              <div class="flex items-center">
+                <div class="w-8">
+                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                  </svg>
+                </div>
+                <div>
+                  <span class="font-medium text-gray-700">Location:</span>
+                  <span class="text-gray-600 ml-2">Buffalo, New York, USA</span>
+                </div>
+              </div>
+    
+              <div class="flex items-center">
+                <div class="w-8">
+                  <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                  </svg>
+                </div>
+                <div>
+                  <span class="font-medium text-gray-700">Degree:</span>
+                  <span class="text-gray-600 ml-2">Master of Science in Computer Science</span>
+                </div>
+              </div>
+    
+              <div class="flex items-center">
+                <div class="w-8">
+                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zM12 6c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3zm-1 3.5h-1v-1h1v1zm1.5 1h-1v1h1v-1zm0-2h-1v-1h1v1z"/>
+                  </svg>
+                </div>
+                <div>
+                  <span class="font-medium text-gray-700">Age:</span>
+                  <span class="text-gray-600 ml-2">25</span>
+                </div>
               </div>
             </div>
-
+          </div>
+    
+          <!-- Contact & Professional Info Card -->
+          <div class="w-full lg:w-1/2 bg-white p-8 rounded-xl shadow-md border border-blue-100">
+            <h3 class="text-2xl font-semibold text-blue-800 mb-6">Contact & Professional Details</h3>
+    
+            <div class="space-y-4">
+              <div class="flex items-center">
+                <div class="w-8">
+                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+                  </svg>
+                </div>
+                <div>
+                  <span class="font-medium text-gray-700">Website:</span>
+                  <a href="https://bhuvanthirwani.github.io/" class="text-blue-600 hover:text-blue-800 ml-2 transition-colors">
+                    bhuvanthirwani.github.io
+                  </a>
+                </div>
+              </div>
+    
+              <div class="flex items-center">
+                <div class="w-8">
+                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                  </svg>
+                </div>
+                <div>
+                  <span class="font-medium text-gray-700">Phone:</span>
+                  <a href="tel:+17162284256" class="text-blue-600 hover:text-blue-800 ml-2 transition-colors">
+                    +1 716 228-4256
+                  </a>
+                </div>
+              </div>
+    
+              <div class="flex items-center">
+                <div class="w-8">
+                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                  </svg>
+                </div>
+                <div>
+                  <span class="font-medium text-gray-700">Email:</span>
+                  <a href="mailto:bhuvanth@buffalo.edu" class="text-blue-600 hover:text-blue-800 ml-2 transition-colors">
+                    bhuvanth@buffalo.edu
+                  </a>
+                </div>
+              </div>
+    
+              <div class="flex items-center">
+                <div class="w-8">
+                  <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                  </svg>
+                </div>
+                <div>
+                  <span class="font-medium text-gray-700">Freelance:</span>
+                  <span class="text-green-600 font-medium ml-2">Available</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
+    
+        <!-- Specialization Section -->
+        <div class="mt-12 bg-blue-100 p-8 rounded-xl text-center">
+          <h3 class="text-2xl font-bold text-blue-900 mb-4">
+            ML & DL Enthusiast | Full Stack Developer | DevOps Engineer
+          </h3>
+          <p class="text-gray-700 italic text-lg">
+            Passionate about integrating Machine Learning & Deep Learning into modern web applications
+          </p>
+        </div>
       </div>
     </section><!-- End About Section -->
-
-    <section id="fh5co-features" class="skills section-bg animate-box">
-      <div class="container">
-        <div class="section-title">
-          <h2>Skills</h2>
+    <section id="skills" class="py-20 bg-indigo-900 text-white">
+      <div class="max-w-6xl mx-auto px-6" data-aos="fade-up">
+        <h2 class="text-4xl font-bold text-center mb-16">Technical Skills</h2>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="skill-card bg-gradient-to-br from-blue-500 to-indigo-500 p-6 rounded-lg text-center">
+            <i class="fas fa-laptop-code text-4xl mb-4"></i>
+            <h3 class="text-2xl font-bold mb-4">Domains</h3>
+            <p>FullStack, DevOps, Machine Learning, Artificial Intelligence, Data Science, Deep Learning, Cloud Computing</p>
+          </div>
+          <div class="skill-card bg-gradient-to-br from-purple-600 to-indigo-600 p-6 rounded-lg text-center">
+            <i class="fas fa-cloud text-4xl mb-4"></i>
+            <h3 class="text-2xl font-bold mb-4">Cloud & DevOps</h3>
+            <p>AWS, Azure, GCP, Docker, Kubernetes, CI/CD, Linux, GitHub</p>
+          </div>
+          <div class="skill-card bg-gradient-to-br from-blue-600 to-indigo-600 p-6 rounded-lg text-center">
+            <i class="fas fa-code text-4xl mb-4"></i>
+            <h3 class="text-2xl font-bold mb-4">Languages</h3>
+            <p>Python, C/C++, Java, JavaScript</p>
+          </div>
+          
+          
+          
+          
         </div>
-
-        <div class="services-padding">
-
-          <div class="row">
-            <div class="col-md-4 text-center">
-              <span style="font-size: 30px; font-family: 'Eczar', serif; color: #1f5297;">Domains </span><br><br>
-              <span style="font-size: 20px; font-family: 'Eczar', serif; color: rgb(0, 0, 0);">FullStack, DevOps, Machine Learning, Artificial Intelligence, Data Science, Deep Learning, Cloud Computing
-                 </span>
-            </div>
-            <div class="col-md-4 text-center">
-              <span style="font-size: 30px; font-family: 'Eczar', serif; color: #1f5297;">Tools</span><br><br>
-              <span style="font-size: 20px; font-family: 'Eczar', serif; color: rgb(0, 0, 0);">AWS, Azure, GCP, Docker, Kubernetes, CI/CD, Linux, Github
-                 </span>
-            </div>
-            <div class="col-md-4 text-center">
-              <span style="font-size: 30px; font-family: 'Eczar', serif; color: #1f5297;">Languages </span><br><br>
-
-              <span style="font-size: 20px; font-family: 'Eczar', serif; color: rgb(0, 0, 0);">Python, C/C++, Java,
-                JavaScript</span>
-            </div>
+        
+        <div class="grid md:grid-cols-3 gap-8 mt-8">
+          
+          <div class="skill-card bg-gradient-to-br from-cyan-400 to-blue-400 p-6 rounded-lg text-center">
+            <i class="fas fa-chart-bar text-4xl mb-4"></i>
+            <h3 class="text-2xl font-bold mb-4">Data Analysis</h3>
+            <p>PowerBI, Google Data Studio, Excel, Matplotlib, Seaborn, Numpy, Pandas</p>
           </div>
-          <div class="row" style="margin-top: 75px;">
-            <div class="col-md-4 text-center">
-              <span style="font-size: 30px; font-family: 'Eczar', serif; color: #1f5297;">Frameworks </span><br><br>
-              <span style="font-size: 20px; font-family: 'Eczar', serif; color: rgb(0, 0, 0);">Flask, Node.js, Django, React, Tailwind CSS</span>
-            </div>
-            
-
-            <div class="col-md-4 text-center">
-              <span style="font-size: 30px; font-family: 'Eczar', serif; color: #1f5297;">Web Development
-              </span><br><br>
-              <span style="font-size: 20px; font-family: 'Eczar', serif; color: rgb(0, 0, 0);">HTML, CSS, JavaScript</span>
-
-            </div>
-            <div class="col-md-4 text-center">
-              <span style="font-size: 30px; font-family: 'Eczar', serif; color: #1f5297;"> ML/DL Frameworks
-              </span><br><br>
-              <span style="font-size: 20px; font-family: 'Eczar', serif; color: rgb(0, 0, 0);">TensorFlow, Keras,
-                OpenCV, NLP, Scikit-learn</span>
-            </div>
+          <div class="skill-card bg-gradient-to-br from-cyan-600 to-blue-600 p-6 rounded-lg text-center">
+            <i class="fas fa-layer-group text-4xl mb-4"></i>
+            <h3 class="text-2xl font-bold mb-4">Frameworks</h3>
+            <p>Flask, Node.js, Spring, Django, React, Hadoop, Spark, Kafka</p>
           </div>
-            
-            
-
-            <div class="row" style="margin-top: 75px;">
-              <div class="col-md-4 text-center">
-
-                <span style="font-size: 30px; font-family: 'Eczar', serif; color: #1f5297;">Core Subjects
-                </span><br><br>
-                <span style="font-size: 20px; font-family: 'Eczar', serif; color: rgb(0, 0, 0);">Data Structures &
-                  Algorithms, DBMS, Operating Systems</span>
-
-              </div>
-
-              <div class="col-md-4 text-center">
-
-
-                <span style="font-size: 30px; font-family: 'Eczar', serif; color: #1f5297;">Data Analysis
-                </span><br><br>
-                <span style="font-size: 20px; font-family: 'Eczar', serif; color: rgb(0, 0, 0);">PowerBI, Google Data
-                  Studio, Excel, Matplotlib, Numpy, Pandas</span>
-
-              </div>
-              
-            </div>
-
-
+          <div class="skill-card bg-gradient-to-br from-purple-500 to-indigo-500 p-6 rounded-lg text-center">
+            <i class="fas fa-brain text-4xl mb-4"></i>
+            <h3 class="text-2xl font-bold mb-4">ML/DL Frameworks</h3>
+            <p>TensorFlow, Keras, OpenCV, NLP, Scikit-learn, PyTorch</p>
+          </div>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8 mt-8">
+          <div class="skill-card bg-gradient-to-br from-blue-400 to-indigo-400 p-6 rounded-lg text-center">
+            <i class="fas fa-database text-4xl mb-4"></i>
+            <h3 class="text-2xl font-bold mb-4">Core Subjects</h3>
+            <p>Data Structures & Algorithms, DBMS, Operating Systems</p>
           </div>
         </div>
       </div>
     </section>
     
+    <style>
+    .skill-card {
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+      transform: translateZ(0);
+      transition: transform 0.3s;
+    }
+    
+    .skill-card:hover {
+      transform: scale(1.05);
+    }
+    
+    .bg-noise {
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    }
+    </style>
 
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container">
+    <section id="resume" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          Resume
+        </h2>
+    
+        <div class="flex flex-col lg:flex-row gap-12">
+          <!-- Left Column (Education & Activities) -->
+          <div class="lg:w-1/2 space-y-12">
+            <div class="relative">
+              <!-- Timeline line -->
+              <div class="absolute left-0 h-full w-1 bg-gradient-to-b from-gray-950 to-gray-950 transform -translate-x-1/2 ml-[10px]"></div>
+    
+              <div class="space-y-8 pl-12">
+                <!-- Education Section -->
+                <div data-aos="fade-right" class="relative">
+                  <div class="absolute -left-12 top-6 w-6 h-6 bg-indigo-500 rounded-full ring-4 ring-white"></div>
+                  <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Education</h3>
+                    <div class="space-y-6">
+                      <div class="border-l-4 border-blue-500 pl-4">
+                        <h4 class="text-lg font-semibold text-gray-800">Master of Science in Computer Science</h4>
+                        <div class="flex gap-4 text-sm text-gray-600 mt-2">
+                          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">2024 - Present</span>
+                          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">GPA: 3.83/4.0</span>
+                        </div>
+                        <p class="text-sm text-gray-600 mt-2 font-semibold"><em>State University of New York, University at Buffalo</em></p>
+                        <p class="text-sm text-gray-600 mt-2">Focus on Algorithms, Cloud Computing, Machine Learning, and AI</p>
+                      </div>
+                      <div class="border-l-4 border-blue-500 pl-4">
 
-        <div class="section-title">
-          <h2>Resume</h2>
-        </div>
+                        <h4 class="text-lg font-semibold text-gray-800">Bachelor of Technology (B.Tech.)</h4>
+                        <div class="flex gap-4 text-sm text-gray-600 mt-2">
+                          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">2018 - 2022</span>
+                          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">GPA: 3.5/4.0</span>
+                        </div>
+                        <p class="text-sm text-gray-600 mt-2 font-semibold"><em>Indian Institute of Information Technology, Pune</em></p>
+                      </div>
+                    </div>
+                  </div>
 
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Master of Science in Computer Science</h4>
-              <h5>2024 - Present</h5>
-              <h5>GPA: 3.83/4.0</h5>
-              <p><em>State University of New York, University at Buffalo</em></p>
-              <p>
-                Pursuing a Master of Science in Computer Science at the University at Buffalo, with a focus on
-                algorithms, cloud computing, machine learning and artificial intelligence.
-              </p>
-            </div>
-            <div class="resume-item">
-              <h4>Bachelor of Technology (B.Tech.)</h4>
-              <h5>2018 - Present</h5> <h5>GPA: 3.5/4.0</h5>
-              <p><em>Indian Institute of Information Technology, Pune- (IIIT Pune or IIITP)</em></p>
-            </div>
-
-            <h3 class="resume-title">Position of Responsibility</h3>
-            <div class="resume-item">
-              <p><em>Technical-Head, I-CONCLAVE 2k20 (Autumn 2020)</em></p>
-              <ul>
-                <li>Responsible for handling and managing all the technical events.</li>
-              </ul>
-              <p><em>Co-Head of Chess Club (Winter 2019)</em></p>
-              <p><em>Executive of Web Development Club (Wirkhive) (Winter 2019)</em></p>
-            </div>
-            <h3 class="resume-title">Extracurriculars</h3>
-            <div class="resume-item">
-              <p><em>Sports</em></p>
-              <ul>
-                <li>Represented IIIT Pune at the ZEST Sports Fest at COEP Pune in Chess Tournament (2020)</li>
-                <li>Achieved Runner-Up Position in Chess Rapid Tournament & Runner-Up at School Chess Competition (2020
-                  & 2016)</li>
-                <li>Successfully completed a month-long course under the MYCC, Cricket (2018-19)</li>
-              </ul>
-            </div>
-            <h3 class="resume-title">Courses</h3>
-            <div class="resume-item">
-              <p><em>Certification Courses</em></p>
-              <ul>
-                <li>Machine Learning (Coursera, authorized by Stanford University)</li>
-                <li>AWS Cloud Practitioner Essentials. (Amazon Web Services)</li>
-                <li>Algorithmic Toolbox by University of California San Diego. (Coursera)</li>
-              </ul>
-
-            </div>
-            <h3 class="resume-title">Achievements</h3>
-            <div class="resume-item">
-              <ul>
-                <li>Won 2 Merit Awards in State Level UCMAS Abacus & Mental Arithmetic Competition (2008 & 2009)</li>
-                <li>Secured All India Rank 392 in National Engineering Olympiad 2020 (Top 3% Percentile). (2018)</li>
-                <li>Solved 200+ Questions on Leetcode- <a href="https://leetcode.com/bhuvanthirwani/">Leetcode
-                    Profile</a></li>
-                <li>Achieved 69th Rank in Codechef March Long Challenge 2021. (2021)</li>
-                <li>Achieved 64th Rank in Codepile Coding Event (Coding Ninjas). (2020)</li>
-
-              </ul>
-
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Work Experience</h3>
-            <div class="resume-item">
-              <h3>Freelance Software Developer</h3>
-              <h5>August 2022 - Present</h5>
-              <ul>
-                <li>Skilled in building scalable web applications with React, Flask, and Django.</li>
-                <li>Proficient in AWS, Docker, Kubernetes, and CI/CD pipelines for efficient deployment and automation.
-                </li>
-                <li>Developed and deployed ML models into live systems for enhanced automation.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h3>Member of Technical Staff - I</h3>
-              <h5>July 2022 - August 2024</h5>
-              <p><em>Euler Motors, Delhi, India</em></p>
-              <ul>
-                <li>
-                  Led end-to-end development of 2 Software Products in this organization. Led the development of a feature enabling data reading from vehicle's
-                  hardware components, increasing testing efficiency by 500%.
-                </li>
-                <li>
-                  Automated the Electric Vehicle Manufacturing Plant using camera based AI
-Systems.
-                </li>
-                <li>
-                  Implemented a software-based quality control process to detect problems in
-                  vehicles remotely over the cloud, minimizing downtime by 30%.
-                </li>
-                <li>
-                  Generated visual representations of key performance indicators (KPIs) for
-                  financers using real-time data of electric vehicles.
-                </li>
-                <li>
-                  Orchestrated Docker and Kubernetes to scale up the platform, increasing
-                  efficiency and scalability by 5 times.
-                </li>
+                </div>
+    
                 
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Software Engineer Intern</h4>
-              <h5>January 2022 - June 2022</h5>
-              <p><em>Paytm Money, Noida, India</em></p>
-              <ul>
-                <li>Implemented Live Feed Data of 7000+ Stocks using Asynchronous Node.js and WebSocket Technology.</li>
-                <li>Enhanced system capacity through load testing for 100,000 customers simultaneously. Utilized quantitative methods and networking protocols to optimize data delivery and performance of the product.</li>
-                <li>Optimized the Real-time stock market data latency from 400ms to 2ms using Springboot (MVC), MySQL, and Redis Cache with Java 8.</li>
-                <li>Achieved the 1st B2B model of Paytm with innovative technology solutions.</li>
-                <li>Created CRUD APIs from scratch using SpringBoot, MySQL, and Redis Cache for efficient data management.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Machine Learning Research Intern</h4>
-              <h5>April 2021-July 2021</h5>
-              <p><em>Defence Research and Development Organisation - DRDO, Government of India, Chandigarh, India</em>
-              </p>
-              <ul>
-                <li>Worked on two projects related to each other. Landslide Prediction & Calculating Landslide
-                  Susceptibility Index</li>
-                <li>Used Equal-Width-Binning & Over-sampling and Under-sampling techniquesfor preprocessing of Dataset
-                </li>
-                <li>Implemented GRID SEARCH CV with Weighted Decision Tree model & Naïve Bayes model for prediction
-                  of Landslide.</li>
-                <li>Implemented statistical methods like Frequency Ratio and Multi-Criteria Decision Making techniques
-                  to
-                  calculate Landslide Susceptibility Index</li>
 
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Machine Learning Trainee and Intern</h4>
-              <h5>November 2020 - December 2020</h5>
-              <p><em>Internship Studio</em></p>
-              <ul>
-                <li>Worked on a Project on YouTube AD-View Prediction to monitor effect of AD-clicks on Business
-                  Performance</li>
-                <li>Implemented different Machine Learning Algorithms (ANN, Decision Trees, LR, Random Forest) for
-                  comparing
-                  results & also comapred results with Ensemble Techniques</li>
-              </ul>
-            </div>
-            
+                <div data-aos="fade-right" data-aos-delay="100" class="relative">
+                  <div class="absolute -left-12 top-6 w-6 h-6 bg-green-500 rounded-full ring-4 ring-white"></div>
+                  <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Certifications</h3>
+                    <div class="space-y-4">
+                      <div class="pl-4 border-l-4 border-green-500">
+                        <li class="text-sm font-semibold text-gray-800">Machine Learning (Coursera, authorized by Stanford University)</li>
+                        
+                        
 
-            
+                        <li class="text-sm font-semibold text-gray-800 mt-2">AWS Cloud Practitioner Essentials. (Amazon Web Services)</li>
+                        <li class="text-sm font-semibold text-gray-800 mt-2">Algorithmic Toolbox by University of California San Diego. (Coursera)</li>
+                        
+
+
+
+                      </div>
+                     
+                      <!-- Add other leadership items -->
+                    </div>
+                   
+                  </div>
+                </div>
+                <div data-aos="fade-right" data-aos-delay="100" class="relative">
+                  <div class="absolute -left-12 top-6 w-6 h-6 bg-red-500 rounded-full ring-4 ring-white"></div>
+                  <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Leadership</h3>
+                    <div class="space-y-4">
+                      <div class="pl-4 border-l-4 border-red-500">
+                        <h4 class="font-semibold text-gray-800">Technical-Head, I-CONCLAVE 2k20</h4>
+                        <div class="flex gap-4 text-sm text-gray-600 mt-2">
+                          <span class="bg-red-100 text-red-500 px-3 py-1 rounded-full mt-1 text-sm">Autumn 2020</span>
+                        </div>
+                        
+                        <ul class="list-disc list-inside text-gray-600 mt-2">
+
+                          <li class="text-sm">Managed all technical events and infrastructure</li>
+                        </ul>
+                      </div>
+                      <div class="pl-4 border-l-4 border-red-500">
+
+                        <h4 class="font-semibold text-gray-800">Co-Head of Chess Club</h4>
+                        <div class="flex gap-4 text-sm text-gray-600 mt-2">
+                          <span class="bg-red-100 text-red-500 px-3 py-1 rounded-full mt-1 text-sm">Winter 2019</span>
+                        </div>
+                        <ul class="list-disc list-inside text-gray-600 mt-2">
+                          <li class="text-sm">Led a team of 10+ members in Inter-University Chess Tournament</li>
+                          <li class="text-sm">Represented IIIT Pune at the ZEST Sports Fest at COEP Pune in Chess Tournament (2020)</li>
+                          <li class="text-sm">Achieved Runner-Up Position in Chess Rapid Tournament & Runner-Up at School Chess Competition (2020 & 2016)</li>
+                
+                        </ul>
+
+
+                        
+
+                      </div>
+                      <div class="pl-4 border-l-4 border-red-500">
+                        <h4 class="font-semibold text-gray-800">Member of Cricket Club</h4>
+                        <div class="flex gap-4 text-sm text-gray-600 mt-2">
+
+                          <span class="bg-red-100 text-red-500 px-3 py-1 rounded-full mt-1 text-sm">Fall 2018 - Winter 2020</span>
+                        </div>
+
+
+                        <ul class="list-disc list-inside text-gray-600 mt-2">
+                          <li class="text-sm ">Runner-Up in Cricket Tournament (2020)</li>
+                        </ul>
+
+                        
+
+
+                      </div>
+                      <!-- Add other leadership items -->
+                    </div>
+                   
+                  </div>
+                </div>
+                <div data-aos="fade-right" data-aos-delay="100" class="relative">
+                  <div class="absolute -left-12 top-6 w-6 h-6 bg-yellow-500 rounded-full ring-4 ring-white"></div>
+                  <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Achievements</h3>
+                    <div class="space-y-4">
+                      <div class="pl-4 border-l-4 border-yellow-500">
+                        <li class="text-sm font-semibold">Won 2 Merit Awards in State Level UCMAS Abacus & Mental Arithmetic Competition (2008 & 2009)</li>
+                <li class="text-sm font-semibold mt-2">Secured All India Rank 392 in National Engineering Olympiad 2020 (Top 3% Percentile). (2018)</li>
+
+
+
+
+                <li class="text-sm font-semibold mt-2">Solved 200+ Questions on Leetcode- <a href="https://leetcode.com/bhuvanthirwani/ " target="_blank" class="text-yellow-500">Leetcode</a></li>
+
+
+                <li class="text-sm font-semibold mt-2">Achieved 69th Rank in Codechef March Long Challenge 2021. (2021)</li>
+                <li class="text-sm font-semibold mt-2">Achieved 64th Rank in Codepile Coding Event (Coding Ninjas). (2020)</li>
+
+
+                        
+                      </div>
+                      
+                      <!-- Add other leadership items -->
+                    </div>
+                   
+                  </div>
+                </div>
+                <div data-aos="fade-right" data-aos-delay="100" class="relative">
+                  <div class="absolute -left-12 top-6 w-6 h-6 bg-teal-500 rounded-full ring-4 ring-white"></div>
+                  <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Publications</h3>
+                    <div class="space-y-4">
+                      <div class="pl-4 border-l-4 border-teal-500">
+
+                        <li class="text-sm font-semibold"> Composed a Research Paper (Under Review) - Proctoring System using Deep Learning Techniques in AIRHS 22 National Virtual
+                          Conference on Al for Resilient Happy Society.</li>
+                
+                      </div>
+                      
+                      <!-- Add other leadership items -->
+                    </div>
+                   
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+    
+          <!-- Right Column (Experience) -->
+          <div class="lg:w-1/2 space-y-12">
+            <div class="relative">
+              <!-- Timeline line -->
+              <div class="absolute left-0 h-full w-1 bg-gradient-to-b from-gray-950 to-gray-950 transform -translate-x-1/2 ml-[10px]"></div>
+    
+
+              <div class="space-y-8 pl-12">
+                <!-- Work Experience -->
+                <div data-aos="fade-left" class="relative">
+                  <div class="absolute -left-12 top-6 w-6 h-6 bg-purple-500 rounded-full ring-4 ring-white"></div>
+                  <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Professional Experience</h3>
+                    <div class="space-y-6">
+                      
+                      <div class="border-l-4 border-purple-500 pl-4">
+                        <h4 class="text-lg font-semibold text-gray-800">Freelance Software Developer</h4>
+                        <div class="flex gap-4 text-sm text-gray-600 mt-2">
+                          <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full">August 2022 - Present</span>
+                        </div>
+                        
+                        <ul class="list-disc list-inside text-gray-600 mt-2">
+                          <li class="text-sm">Developed scalable web applications with React, Flask, and Django</li>
+                          <li class="text-sm">Implemented AWS, Docker, Kubernetes for deployment automation</li>
+                          <li class="text-sm">Deployed ML models for process automation</li>
+                        </ul>
+
+                      </div>
+                      <div class="border-l-4 border-purple-500 pl-4">
+                        <h4 class="text-lg font-semibold text-gray-800">Member of Technical Staff - I</h4>
+                        <div class="flex flex-col text-sm text-gray-600 mt-2">
+                          <span class="text-sm text-gray-800 mb-1 font-semibold">Euler Motors, Delhi, India</span>
+                          <span class="w-fit bg-purple-100 text-purple-500 px-3 py-1 rounded-full text-sm mt-1">July 2022 - August 2024</span>
+                          
+
+                        </div>
+                        
+                        <ul class="list-disc list-inside text-gray-600 mt-2">
+                          <li class="text-sm">
+                            Led end-to-end development of 2 Software Products in this organization.</li>
+                          <li class="text-sm">
+                            Features enabling data reading from vehicle's
+                            hardware components, increasing testing efficiency by 500%.
+                          </li>
+                          <li class="text-sm">
+
+                            Automated the Electric Vehicle Manufacturing Plant using camera based AI
+          Systems.
+                          </li>
+                          <li class="text-sm">
+                            Implemented a software-based quality control process to detect problems in
+                            vehicles remotely, minimizing downtime by 30%.
+                          </li>
+                          <li class="text-sm">
+                            Generated visual representations of key performance indicators (KPIs) using real-time data of electric vehicles.
+                          </li>
+                          <li class="text-sm">
+                            Orchestrated Docker and Kubernetes to scale up the platform, increasing
+                            efficiency and scalability by 5 times.
+                          </li>
+
+                        </ul>
+                      </div>
+                      <!-- Add other experience items -->
+                    </div>
+                  </div>
+                </div>
+    
+                <!-- Internships -->
+                <div data-aos="fade-left" data-aos-delay="100" class="relative">
+                  <div class="absolute -left-12 top-6 w-6 h-6 bg-orange-500 rounded-full ring-4 ring-white"></div>
+                  <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Internships</h3>
+                    <div class="space-y-4">
+                      <div class="pl-4 border-l-4 border-orange-500">
+                        <h4 class="font-semibold text-gray-800">Software Engineer Intern</h4>
+                        <div class="flex flex-col text-sm text-gray-600 mt-2">
+                          <span class="text-sm text-gray-600 mt-1 font-semibold">Paytm Money, Noida, India</span>
+                          <span class="w-fit bg-orange-100 text-orange-500 px-3 py-1 rounded-full mt-2 text-sm ">January 2022 - June 2022</span>
+                        </div>
+                        <ul class="list-disc list-inside text-gray-600 mt-2">
+                          <li class="text-sm">Implemented Live Feed Data of 7000+ Stocks using Asynchronous Node.js & WebSockets.</li>
+                          <li class="text-sm">Enhanced system capacity through load testing for 100,000 customers simultaneously.</li> 
+                          <li class="text-sm">Utilized quantitative methods and networking protocols to optimize data delivery & performance.</li>
+                          <li class="text-sm">Optimized the Real-time stock market data latency from 400ms to 2ms using Springboot (MVC), MySQL, and Redis Cache with Java 8.</li>
+                          <li class="text-sm">Achieved the 1st B2B model of Paytm with innovative technology solutions.</li>
+                          <li class="text-sm">Created CRUD APIs from scratch using SpringBoot, MySQL, and Redis Cache for efficient data management.</li>
+                        </ul>
+                      </div>
+                      <div class="pl-4 border-l-4 border-orange-500">
+                        <h4 class="font-semibold text-gray-800">Machine Learning Research Intern</h4>
+                        <div class="flex flex-col text-sm text-gray-600 mt-2">
+                          <span class="text-sm text-gray-600 mt-1 font-semibold">Defence Research and Development Organisation, Chandigarh, India</span>
+                          <span class="w-fit bg-orange-100 text-orange-500 px-3 py-1 rounded-full mt-2 text-sm ">April 2021-July 2021</span>
+                        </div>
+                        
+
+                        <ul class="list-disc list-inside text-gray-600 mt-2">
+                          <li class="text-sm">Worked on two projects related to each other. Landslide Prediction & Calculating Landslide
+                            Susceptibility Index</li>
+                          <li class="text-sm">Used Equal-Width-Binning & Over-sampling and Under-sampling techniquesfor preprocessing of Dataset
+                          </li>
+
+                          <li class="text-sm">Implemented GRID SEARCH CV with Weighted Decision Tree model & Naïve Bayes model for prediction
+                            of Landslide.</li>
+                          <li class="text-sm">Implemented statistical methods like Frequency Ratio and Multi-Criteria Decision Making techniques
+                            to
+                            calculate Landslide Susceptibility Index</li>
+                        </ul>
+                      </div>
+                      
+                      <div class="pl-4 border-l-4 border-orange-500">
+                        <h4 class="font-semibold text-gray-800">Machine Learning Trainee and Intern</h4>
+                        <div class="flex flex-col text-sm text-gray-600 mt-2">
+                          <span class="text-sm text-gray-600 mt-1 font-semibold">Internship Studio</span>
+                          <span class="w-fit bg-orange-100 text-orange-500 px-3 py-1 rounded-full mt-2 text-sm ">November 2020 - December 2020</span>
+                        </div>
+                        
+
+                        <ul class="list-disc list-inside text-gray-600 mt-2">
+                          <li class="text-sm">Worked on a Project on YouTube AD-View Prediction to monitor effect of AD-clicks on Business
+                            Performance</li>
+                          <li class="text-sm">Implemented different Machine Learning Algorithms (ANN, Decision Trees, LR, Random Forest) for
+                            comparing
+
+                            results & also comapred results with Ensemble Techniques</li>
+                        </ul>
+                      </div>
+                      
+                      <!-- Add other internship items -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
       </div>
-    </section><!-- End Resume Section -->
-
+    </section>
+    
+    <style>
+      /* Custom animations */
+      @keyframes timeline-entry {
+        0% { opacity: 0; transform: translateY(20px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+    
+      .timeline-animate {
+        animation: timeline-entry 0.6s ease-out forwards;
+      }
+    </style>
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio section-bg">
       <div class="container">
 
-        <section id="fh5co-projects" class="projects animate-box">
+        <section id="projects" class="projects animate-box">
           <div class="container">
             <div class="section-title">
               <h2>Projects</h2>
@@ -516,7 +790,9 @@ Systems.
 
             </div>
         </section>
-        <section id="contact" class="contact">
+
+        
+        <!-- <section id="contact" class="contact">
           <div class="container">
             <div class="section-title">
               <h2>Contact</h2>
@@ -548,7 +824,42 @@ Systems.
             </div>
           </div>
 
+        </section> -->
+        <section id="contact" class="py-20 bg-indigo-900 text-white">
+          <div class="max-w-6xl mx-auto px-6" data-aos="fade-up">
+            <h2 class="text-4xl font-bold text-center mb-16">Get in Touch</h2>
+            
+            <div class="max-w-2xl mx-auto text-center">
+              <div class="space-y-6 mb-12">
+                <p class="text-xl">📧 bhuvanth@buffalo.edu</p>
+                <p class="text-xl">📱 +1 716 228-4256</p>
+                <p class="text-xl">📍 Buffalo, New York</p>
+              </div>
+              
+              <div class="flex justify-center space-x-8">
+                <a href="https://www.linkedin.com/in/dev-hax-codes/" class="social-button">
+                  <i class="ri-linkedin-box-fill text-3xl"></i>
+                </a>
+                <a href="https://github.com/bhuvanthirwani/" class="social-button">
+                  <i class="ri-github-fill text-3xl"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </section>
+        
+        <style>
+        .social-button {
+          padding: 1rem;
+          border-radius: 9999px;
+          background-color: rgb(55 48 163);
+          transition: background-color 0.3s;
+        }
+        
+        .social-button:hover {
+          background-color: rgb(67 56 202);
+        }
+        </style>
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -584,7 +895,14 @@ Systems.
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+    easing: 'ease-in-out'
+  });
+</script>
 </body>
 
 </html>
